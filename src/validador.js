@@ -2,7 +2,12 @@
 
 function validar_email(email)
 {
-  // escreva seu código aqui
+  let validarRegExNoEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  if (email.match(validarRegExNoEmail)) {
+    return true; 
+  } else {
+    return false; 
+  }
  
 }
   
