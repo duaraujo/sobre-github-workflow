@@ -13,6 +13,7 @@ function validar_email(email)
   
 function validar_cep(cep){
   // escreva seu código aqui
+  console.log('validar cep')
 
 }
 
